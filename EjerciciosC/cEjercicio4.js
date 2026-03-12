@@ -19,5 +19,8 @@ function configurarUsuario(defaults, personalizadas) {
 }
 
 // Pruebas
+console.log("Buen resultado: ");
+
 console.log(configurarUsuario(defaults, { idioma: "en", tema: "oscuro" })); // "en"
+console.log("Prueba de error:");
 console.log(defaults); //  no fue mutado

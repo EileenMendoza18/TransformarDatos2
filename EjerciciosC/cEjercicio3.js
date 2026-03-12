@@ -18,4 +18,5 @@ function registrarActividad(actividad) {
 
 // Pruebas
 registrarActividad({ nombre: "Fútbol", fecha: "2025-06-01" });
+console.log("Prueba error:");
 registrarActividad({ nombre: "Natación" });                     

@@ -24,8 +24,10 @@ const actualizado = actualizarPerfil(
   { email: "juan@correo.com" }
 );
 
+console.log("Actualizado: ");
 console.log(actualizado);
 
+console.log("Original: ");
 
 console.log(perfil);
 // el perfil original no fue modificado
