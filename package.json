@@ -1,16 +1,18 @@
 {
-  "name": "ejerciciod",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "operadores_modernos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "license": "ISC"
+  
 }
